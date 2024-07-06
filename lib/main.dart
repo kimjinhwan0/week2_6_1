@@ -39,7 +39,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
         body: Container(
           decoration: const BoxDecoration(
-            image: DecorationImage(image: AssetImage('assets/background.png'),
+            image: DecorationImage(image: AssetImage('assets/images/background.png'),
                 fit: BoxFit.cover
             ),
           ),
@@ -57,7 +57,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       width: double.infinity,
                       decoration: BoxDecoration(
                         image: DecorationImage(
-                            image: AssetImage('assets/background.png'),
+                            image: AssetImage('assets/images/background.png'),
                             fit: BoxFit.cover
                         ),
                       ),
@@ -80,7 +80,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                   height: 245,
                                   width: double.infinity,
                                   child: Image.asset(
-                                    'assets/login/Yonsuri.png',
+                                    'assets/images/login/Yonsuri.png',
                                     fit: BoxFit.fill,
                                   )
                               ),
@@ -105,7 +105,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                               MaterialPageRoute(builder: (context) => chattab())
                                           );
                                         },
-                                        child: Image.asset("assets/login/kklogin.png"),
+                                        child: Image.asset("assets/images/login/kklogin.png"),
                                       )
                                     ]
                                 ),
